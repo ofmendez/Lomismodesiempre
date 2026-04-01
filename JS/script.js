@@ -274,7 +274,7 @@ if (bottomMenu && menuToggle && menuPanel) {
 const loader = document.getElementById("loader");
 
 if (loader) {
-  const MIN_LOADER_TIME = 2200;
+  const MIN_LOADER_TIME = 200;
   const LOADER_FADE_TIME = 700;
   const loaderStartTime = performance.now();
 
